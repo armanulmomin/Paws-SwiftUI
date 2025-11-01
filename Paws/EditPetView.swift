@@ -21,7 +21,7 @@ struct EditPetView: View {
         do{
             let configuration = ModelConfiguration(isStoredInMemoryOnly: true)
             let container = try ModelContainer(for: Pet.self, configurations: configuration)
-            let sampleData = Pet(name: "Daisy")
+            let sampleData = Pet(name: "Leo")
             
             return EditPetView()
                 .modelContainer(container)
