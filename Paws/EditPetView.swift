@@ -9,8 +9,6 @@ import SwiftUI
 import SwiftData
 
 struct EditPetView: View {
-    
-    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
@@ -20,6 +18,9 @@ struct EditPetView: View {
     NavigationStack {
         do{
             let configuration = ModelConfiguration(isStoredInMemoryOnly: true)
+            
+            
+            
             let container = try ModelContainer(for: Pet.self, configurations: configuration)
             let sampleData = Pet(name: "Leo")
             
