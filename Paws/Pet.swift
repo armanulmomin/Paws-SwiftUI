@@ -32,6 +32,9 @@ extension Pet {
         container.mainContext.insert(Pet(name: "E"))
         container.mainContext.insert(Pet(name: "F"))
         container.mainContext.insert(Pet(name: "G"))
+        container.mainContext.insert(Pet(name: "E"))
+        container.mainContext.insert(Pet(name: "F"))
+        container.mainContext.insert(Pet(name: "G"))
         
         
         
